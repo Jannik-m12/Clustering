@@ -1,6 +1,0 @@
-🚀 Practice Activity
-Conduct a comprehensive data adequacy assessment for your capstone dataset through the following systematic analysis:
-Variability Assessment: Calculate coefficient of variation for all numerical features. Create histograms showing distribution shapes and identify features with insufficient or excessive variation. Document which features may need transformation or exclusion.
-Sample Size Analysis: Given your expected number of clusters and features, calculate minimum sample size requirements using the 50-100 observations per cluster guideline. Compare to your actual sample size and identify potential limitations.
-Hopkins Statistic Calculation: Compute the Hopkins statistic for your full feature set to assess cluster tendency. Values significantly below 0.5 indicate good clustering potential, while values near 0.5 suggest random structure.
-Missing Data Investigation: Create a missingness heatmap showing patterns across features and observations. Identify whether missing data appears random or systematic, and calculate impact on sample size for different handling strategies.
