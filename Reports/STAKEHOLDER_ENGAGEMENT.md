@@ -15,7 +15,8 @@
 10. **Data & Analytics Partner Firm**
 
 ### Power/Interest Matrix
-![Power/Interest Matrix](stakeholder_matrix.png)
+
+<img width="1595" height="1409" alt="stakeholder_matrix" src="https://github.com/user-attachments/assets/33dc03cd-f447-4fd6-ab73-bdc9c470b098" />
 
 ### Top 3 Priority Relationships
 1. **Chief Sustainability Officer (CSO)**
