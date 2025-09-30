@@ -68,8 +68,3 @@ This plan ensures insights:
 - Build trust with transparency.
 - Balance conflicting priorities.
 
-**Timeline Snapshot:**
-- Weeks 1–2: Methodology input.
-- Weeks 3–5: Preliminary results & workshops.
-- Weeks 6–8: Final reporting.
-- Ongoing: Quarterly & annual reviews.
