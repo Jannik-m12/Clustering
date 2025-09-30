@@ -5,7 +5,7 @@
 - **Measurable:** Deliver 3–5 distinct ESG clusters validated by both internal and external stakeholders.
 - **Achievable:** Leverage existing data partnerships and internal sustainability teams to collect and process relevant ESG indicators.
 - **Relevant:** Directly supports GlobalCorp’s corporate sustainability strategy and investor reporting needs.
-- **Time-bound:** Complete analysis and cluster validation within **8 weeks**.
+- **Time-bound:** Complete analysis and cluster validation within **3 weeks**.
 
 ---
 
