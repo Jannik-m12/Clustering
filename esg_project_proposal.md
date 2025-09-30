@@ -228,12 +228,12 @@ Cluster membership will vary significantly by industry/sector, as different indu
 
 | Phase | Activities | Duration |
 |-------|-----------|----------|
-| **Phase 1: Preparation** | Literature review, data acquisition, repository setup | Week 1-2 |
-| **Phase 2: Data Understanding** | Exploratory data analysis, data quality assessment | Week 3 |
-| **Phase 3: Preprocessing** | Data cleaning, feature engineering, standardization | Week 4 |
-| **Phase 4: Clustering Analysis** | Algorithm selection, hyperparameter tuning, validation | Week 5-6 |
-| **Phase 5: Interpretation** | Cluster profiling, statistical testing, visualization | Week 7 |
-| **Phase 6: Documentation** | Final report, presentation, repository finalization | Week 8 |
+| **Phase 1: Preparation** | Literature review, data acquisition, repository setup | Week 1 |
+| **Phase 2: Data Understanding** | Exploratory data analysis, data quality assessment | Week 1 |
+| **Phase 3: Preprocessing** | Data cleaning, feature engineering, standardization | Week 2 |
+| **Phase 4: Clustering Analysis** | Algorithm selection, hyperparameter tuning, validation | Week 2-3 |
+| **Phase 5: Interpretation** | Cluster profiling, statistical testing, visualization | Week 3 |
+| **Phase 6: Documentation** | Final report, presentation, repository finalization | Week 3 |
 
 ---
 
