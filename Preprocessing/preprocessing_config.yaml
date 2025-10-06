@@ -1,0 +1,92 @@
+# ESG Preprocessing Pipeline Configuration
+# This file contains all configurable parameters for the preprocessing pipeline
+
+preprocessing:
+  # Missing value handling strategies
+  missing_strategy_numerical: 'median'  # Options: 'median', 'mean', 'mode'
+  missing_strategy_categorical: 'most_frequent'  # Options: 'most_frequent', 'constant'
+  
+  # Feature scaling method
+  scaling_method: 'standard'  # Options: 'standard', 'robust', 'minmax'
+  
+  # Power transformation settings
+  apply_power_transform: true
+  power_transform_method: 'yeo-johnson'  # Options: 'yeo-johnson', 'box-cox'
+  skewness_threshold: 1.0  # Minimum skewness to trigger transformation
+  
+  # Categorical encoding settings
+  categorical_encoding: 'onehot'  # Options: 'onehot', 'label'
+  drop_first_category: true  # Drop first category to avoid multicollinearity
+
+dimensionality_reduction:
+  # PCA settings
+  apply_pca: true
+  pca_n_components: 0.95  # Explained variance threshold (0-1) or number of components
+  pca_min_components: 5   # Minimum number of components to keep
+  
+  # t-SNE settings for visualization
+  apply_tsne: true
+  tsne_n_components: 2
+  tsne_perplexity: 30
+  tsne_random_state: 42
+
+feature_categories:
+  # Define feature categories for proper handling
+  financial_features:
+    - 'Revenue'
+    - 'ProfitMargin'
+    - 'MarketCap'
+    - 'GrowthRate'
+  
+  esg_features:
+    - 'ESG_Overall'
+    - 'ESG_Environmental'
+    - 'ESG_Social'
+    - 'ESG_Governance'
+  
+  environmental_features:
+    - 'CarbonEmissions'
+    - 'WaterUsage'
+    - 'EnergyConsumption'
+  
+  categorical_features:
+    - 'Industry'
+    - 'Region'
+  
+  identifier_features:
+    - 'CompanyID'
+    - 'CompanyName'
+    - 'Year'
+
+validation:
+  # Automated validation checks
+  check_missing_values: true
+  check_feature_ranges: true
+  check_shape_consistency: true
+  log_transformations: true
+
+output:
+  # Output settings
+  save_intermediate_steps: true
+  save_path: '../Data/'
+  save_fitted_pipeline: true
+  pipeline_save_path: '../Models/'
+
+# Color scheme for consistent visualizations (color-blind friendly)
+visualization:
+  cluster_colors:
+    0: '#4477AA'  # Blue - safe for all color vision types
+    1: '#EE6677'  # Rose/Pink - distinguishable from blue
+    2: '#228833'  # Green - carefully chosen to be distinguishable 
+    3: '#CCBB44'  # Yellow - high contrast and universally accessible
+    4: '#66CCEE'  # Cyan - distinct from blue and green
+    5: '#AA3377'  # Purple - strong contrast
+    6: '#BBBBBB'  # Gray - neutral contrast
+    7: '#000000'  # Black - maximum contrast
+
+# Documentation settings
+documentation:
+  generate_reports: true
+  include_data_quality_report: true
+  include_transformation_log: true
+  report_format: 'markdown'  # Options: 'markdown', 'html', 'pdf'
